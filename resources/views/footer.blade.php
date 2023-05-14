@@ -1,4 +1,4 @@
-<footer style="background-color: #eee6d3;" class='custom-login my-5'>
+<footer style="background-color: #eee6d3; clear:both" class='custom-login my-5'>
     <div class="container p-4">
       <div class="row">
         <div class="col-lg-6 col-md-12 mb-4">

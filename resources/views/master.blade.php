@@ -23,4 +23,30 @@
         height: 320px;
         padding-top: 100px;
     }
+
+    img.slider-img{
+        height: 400px !important;
+    }
+
+    .custom-product-page{
+        height: 600px;
+    }
+
+    .carousel-caption {
+        background-color: #8c938c85 !important;
+    }
+
+    .trending-img {
+        height: 100px;
+    }
+
+    .trending-item {
+        float: left;
+        width: 20%;
+    }
+
+    .trending-wrapper {
+        margin: 30px;
+    }
+</style>
 </html>

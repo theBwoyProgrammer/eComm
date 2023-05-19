@@ -8,22 +8,17 @@ use App\Models\User;
 
 class HomeController extends Controller
 {
-    //
-
-    public function index()
-    {
-        return view('home.userpage');
-    }
-
+    //make a redirect function public
     public function redirect()
     {
-        $usertype = Auth::user()->userType;
+        $usertype = Auth::user() -> usertype;
 
-        if ($usertype == '1') {
+        if($usertype == '1'){
             return view('admin.home');
         } else {
-            return view('home.userpage');
+            return view('dashboard');
         }
     }
+
 
 }
